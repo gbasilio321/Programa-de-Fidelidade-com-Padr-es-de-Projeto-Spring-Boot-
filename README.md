@@ -156,4 +156,4 @@ one.digitalinnovation.gof
 
 ## 👤 Autor
 
-Feito por **<SEU NOME>** ([GitHub](https://github.com/<SEU-USUARIO>)), a partir do projeto base do instrutor [falvojr](https://github.com/falvojr) no bootcamp da Digital Innovation One.
+Feito por **<Gustavo>** ([GitHub](https://github.com/gbasilio321>)), a partir do projeto base do instrutor [falvojr](https://github.com/falvojr) no bootcamp da Digital Innovation One.
