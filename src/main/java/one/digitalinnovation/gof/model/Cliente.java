@@ -15,6 +15,8 @@ public class Cliente {
 	private String nome;
 	@ManyToOne
 	private Endereco endereco;
+	// Programa de fidelidade: pontos acumulados nas compras.
+	private int pontos;
 
 	public Long getId() {
 		return id;
@@ -38,6 +40,22 @@ public class Cliente {
 
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
+	}
+
+	public int getPontos() {
+		return pontos;
+	}
+
+	public void setPontos(int pontos) {
+		this.pontos = pontos;
+	}
+
+	/**
+	 * O nível é derivado dos pontos, então não é persistido (evita
+	 * inconsistência entre os dois campos).
+	 */
+	public NivelFidelidade getNivel() {
+		return NivelFidelidade.porPontos(pontos);
 	}
 
 }
