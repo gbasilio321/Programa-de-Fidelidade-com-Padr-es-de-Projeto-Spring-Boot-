@@ -156,4 +156,4 @@ one.digitalinnovation.gof
 
 ## 👤 Autor
 
-Feito por **<Gustavo>** ([GitHub](https://github.com/gbasilio321>)), a partir do projeto base do instrutor [falvojr](https://github.com/falvojr) no bootcamp da Digital Innovation One.
+Feito por ([Gustavo](https://github.com/gbasilio321>)), a partir do projeto base do instrutor [falvojr](https://github.com/falvojr) no bootcamp da Digital Innovation One.
